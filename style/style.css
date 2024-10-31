@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6F4;
+}
+
+.container {
+    padding: 0 107px;
+    margin: 0 auto;
+    background-color: #F7F6F4;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.navbar-logos {
+    display: flex;
+}
+
+.navbar-logos .search-logo {
+    margin: 0 25px;
+}
+
+.navbar-logos .ellipse-logo {
+    margin: 0 25px;
+}
+
+.navbar-logos .cart-logo {
+    position: absolute;
+    margin-left: 13%;
+}
+
+.navbar-logos ul {
+    display: flex;
+    list-style-type: none;
+    font-family: "Taviraj", serif;
+    font-size: 18px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-links ul li {
+    margin: 0 20px;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+}
+
+
+
+
+.hero-section {
+    margin-left: 60px;
+    padding: 38px;
+}
+
+.hero-section-image img .shape {
+    width: 1110px;
+    height: 480px;
+}
+
+.hero-section-right {
+    text-align: left;
+    position: absolute;
+    margin-top: -450px;
+    background-color: #F1DDC9;
+    position: absolute;
+    padding-left: 380px;
+}
+
+.hero-section-right h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Taviraj", serif;
+}
+
+.hero-section-right span {
+    background-color: #F1DDC9;
+    font-weight: bold;
+}
+
+.hero-section-right-btns {
+    background-color: #F1DDC9;
+    margin-top: 15px;
+}
+
+.hero-section-right-btns img:hover {
+    cursor: pointer;
+}
+
+.hero-section-right-btns button:hover {
+    cursor: pointer;
+}
+
+.hero-section-right-left-btns button:hover {
+    cursor: pointer;
+}
+
+.add-to-cart {
+    border: none;
+    background-color: #D84727;
+    color: white;
+    padding: 12px 32px;
+}
+
+.add-to-cart-logo {
+    background-color: #D84727;
+    color: white;
+    position: relative;
+    margin-right: -35px;
+    padding-right: 3px;
+    height: 15px;
+}
+
+.cicil {
+    border-color: #D84727;
+    background-color: #F1DDC9;
+    color: #D84727;
+    padding: 9px 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+.hero-section-right-left-btns {
+    margin-top: 65px;
+    padding-left: 500px;
+    background-color: #F1DDC9;
+}
+
+.left-btn {
+    border-color: #D84727;
+    background-color: #F1DDC9;
+    color: #D84727;
+    padding: 6px 15px;
+    font-size: 23px;
+}
+
+.right-btn {
+    border-color: #D84727;
+    background-color: #D84727;
+    color: white;
+    padding: 6px 15px;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.hero-section-left {
+    position: absolute;
+    margin-top: -1000px;
+    padding-left: 60px;
+
+}
+
+.watch-picture {
+    width: 260px;
+    height: 380px;
+    background-color: #F1DDC9;
+    position: absolute;
+    margin-top: 610px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.hero-section-wearing-items-cards {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+}
+
+.items-cards {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+}
+
+.items-cards h3 {
+    background-color: white;
+    font-family: "Taviraj", serif;
+    font-size: 28px;
+}
+
+.items-cards p {
+    background-color: #777777;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+}
+
+.items-cards span {
+    background-color: white;
+    font-family: "Taviraj", serif;
+    font-size: 16px;
+}
+
+.items-cards img {
+    background-color: white;
+}
+
+.items-cards .glasses-image img {
+    background-color: white;
+    width: 305px;
+    height: 142px;
+    padding-left: 150px;
+}
+
+.items-cards .white-watch-image img {
+    background-color: white;
+    width: 155px;
+    height: 152px;
+    padding-left: 290px;
+}
+
+
+
+
+
+.hero-section-monthly-deals-sections {
+    margin-top: 60px;
+}
+
+.watch-cards {
+    display: flex;
+    margin-top: 30px;
+}
+
+.customer-review-section {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-detail {
+    padding: 0px 20px 30px 20px;
+    width: 255px;
+    height: 381px;
+    margin-top: 120px;
+}
+
+.customer-image img {
+    margin-left: 40px;
+    width: 207px;
+    height: 221px;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.customer-info {
+    text-align: center;
+    padding-top: 70px;
+    height: 400px;
+    width: 250px;
+    background-color: white;
+}
+
+.customer-info {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.customer-info h2 {
+    margin-top: 50px;
+    background-color: white;
+}
+
+.customer-info h3 {
+    margin-right: 100px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    background-color: white
+}
+
+.old-price {
+    margin-right: 40px;
+    background-color: white;
+}
+
+.old-price s {
+    margin-right: 40px;
+    background-color: white;
+}
+
+.btn {
+    display: flex;
+    margin-top: 30px;
+}
+
+.heart-icon-button {
+    border-color: #D84727;
+    background-color: white;
+    color: #D84727;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.cart-button {
+    border: none;
+    background-color: #D84727;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 20px;
+}
+
+
+
+
+
+.hero-section-recent-news-section {
+    margin-top: 150px;
+    padding-left: 90px;
+}
+
+.rectangle-shape {
+    width: 530px;
+    height: 458px;
+    padding-left: 800px;
+
+}
+
+.hand-and-watch-image {
+    width: 100px;
+    height: 184px;
+    position: absolute;
+    right: 600px;
+    top: 2100px;
+}
+
+.recent-news-left-side {
+    margin-top: -300px;
+    padding-left: 90px;
+}
+
+.recent-news-left-side h3 {
+    color: #777777;
+    margin-bottom: 20px;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+}
+
+.recent-news-left-side h2 {
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.recent-news-left-side button {
+    background-color: #F7F6F4;
+    border-color: #D84727;
+    color: #D84727;
+    padding: 15px 45px;
+    margin-top: 20px;
+}
+
+
+.hero-section-item-price-list {
+    margin-top: 300px;
+}
+
+.hero-section-item-price-headings ul {
+    display: flex;
+    list-style-type: none;
+    font-family: "Taviraj", serif;
+    font-size: 18px;
+
+}
+
+.hero-section-item-price-headings li {
+    margin: 0 25px;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.hero-section-item-price-headings-lines img {
+    margin: 0 25px;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    padding-left: 215px;
+}
+
+.pictures-section {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 50px;
+}
+
+.watches-section {
+    margin-left: 30px;
+    padding: 20px;
+    background-color: #F1DDC9;
+    height: 100px;
+}
+
+.detail-section {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+.series-details h1 {
+    font-size: 25px;
+    margin-left: 110px;
+    padding-top: 40px;
+}
+
+.image-section {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 140px;
+}
+
+
+
+
+
+.series-section {
+    display: flex;
+    margin-top: 300px;
+}
+
+.series-details h1 {
+    margin-left: 100px;
+}
+
+.watch-1-image {
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 15px;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.watch-1-image img {
+    background-color: antiquewhite;
+}
+
+.watch-detail-section {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.watch-detail-section h1 {
+    font-size: 20px;
+}
+
+.watch-detail-section h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+.btn-section {
+    margin-top: 170px;
+
+}
+
+.see-more-btn {
+    margin-left: -480px;
+    padding: 11px 50px;
+    border-color: #D84727;
+    color: #D84727;
+    font-family: "Taviraj", serif;
+    font-size: 16px;
+}
+
+.hero-section-testoinomials-section {
+    text-align: right;
+    padding-right: 400px;
+    padding-top: -10px;
+
+}
+
+.hero-section-testimonials {
+    margin-top: 280px;
+}
+
+.hero-section-testimonials .rec-shape {
+    width: 490px;
+    height: 370px;
+    background-color: #F1DDC9;
+    position: absolute;
+}
+
+.testimonials-image {
+    width: 500px;
+    height: 321px;
+    position: absolute;
+    left: 150px;
+    top: 3640px;
+}
+
+.testimonials-btn {
+    display: flex;
+    margin-top: 25px;
+}
+
+.left-arrow-btn {
+    width: 31px;
+    height: 22px;
+    color: #999999;
+    padding-left: 7px;
+}
+
+.right-arrow-btn {
+    padding-left: 23px;
+    color: #333333;
+    margin-top: -4px;
+    height: 30px;
+    width: 60px;
+}
+
+.hero-section-testoinomials-section {
+    text-align: right;
+    padding-right: 550px;
+    padding-top: 150px;
+
+}
+
+.testimonials-right-side h1 {
+    font-size: 36px;
+    margin-left: 780px;
+}
+
+.testimonials-right-side p {
+    color: #333333;
+    font-size: 16px;
+    font-family: "Nunito", serif;
+    padding-left: 780px;
+    margin-top: 40px;
+}
+
+.testimonials-right-side-2 h3 {
+    color: #333333;
+    font-size: 24px;
+    font-family: "Taviraj", serif;
+    padding-left: 780px;
+    margin-top: 50px;
+    /* position: absolute; */
+}
+
+.testimonials-right-side-2 span {
+    color: #777777;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+    padding-left: 780px;
+    margin-top: -10px;
+    /* position: absolute; */
+}
+
+
+
+
+.hero-section-instagram-section {
+    margin-top: 300px;
+    padding-left: 105px;
+}
+
+.instagram-watch-images {
+    display: flex;
+    padding-left: 105px;
+    margin-top: 50px;
+}
+
+
+
+
+.design-section {
+    margin-top: 120px;
+    background: #DA5E42;
+    width: 87%;
+    text-align: center;
+    height: 250px;
+    margin-left: 90px;
+}
+
+.design-section img {
+    padding: 30px;
+    background: #DA5E42;
+    margin-bottom: -73px;
+}
+
+.design2-section-1 {
+    background: #D84727;
+    width: 87%;
+    height: 400px;
+    margin-left: 90px;
+    /* text-align:center ; */
+}
+
+.design2-section-1 img {
+    background: #D84727;
+    padding-left: 120px;
+    margin-top: 60px;
+    width: 155px;
+    height: 22px;
+}
+
+.design2-section-1 h2 {
+    background: #D84727;
+    color: white;
+    padding-left: 120px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Taviraj", serif;
+}
+
+
+.design2-section-1 p {
+    background: #D84727;
+    font-family: "Taviraj", serif;
+    font-size: 14px;
+    padding-left: 120px;
+    color: white;
+}
+
+.design2-section-2 {
+    background: #D84727;
+}
+
+.design2-section-2 h1 {
+    background: #D84727;
+    padding-left: 390px;
+    margin-top: -300px;
+    color: white;
+    font-size: 24px;
+    font-family: "Taviraj", serif;
+}
+
+.design2-section-2 h3 {
+    background: #D84727;
+    color: white;
+    padding-left: 390px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+}
+
+.design2-section-2 h3 span {
+    background: #D84727;
+    color: white;
+    padding-left: 10px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+    font-weight: 400;
+}
+
+.design2-section-3 {
+    background-color: #D84727;
+}
+
+.design2-section-3 h1 {
+    background: #D84727;
+    padding-left: 650px;
+    margin-top: -230px;
+    color: white;
+    font-size: 24px;
+    font-family: "Taviraj", serif;
+}
+
+.design2-section-3 .spans {
+    margin-top: 10px;
+    padding-left: 650px;
+    background-color: #D84727;
+    color: white;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+
+}
+
+.design2-section-4 {
+    background-color: #D84727;
+}
+
+.design2-section-4 h1{
+    background: #D84727;
+    padding-left: 870px;
+    margin-top: -250px;
+    color: white;
+    font-size: 24px;
+    font-family: "Taviraj", serif;
+}
+
+.design2-section-4 .spans-section {
+    margin-top: 12px;
+    padding-left: 870px;
+    background-color: #D84727;
+    color: white;
+    font-size: 16px;
+    font-family: "Taviraj", serif;
+}
+
